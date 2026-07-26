@@ -1,0 +1,20 @@
+// ─── Design Tokens ────────────────────────────────────────────────────────────
+export const T = {
+  bg: "#0C0F1A",
+  bgSurface: "#111520",
+  bgCard: "#161B2E",
+  bgCardHover: "#1C2238",
+  amber: "#E8A84C",
+  amberDim: "#C4893A",
+  amberGlow: "#E8A84C22",
+  mist: "#8B9BB4",
+  mistDim: "#3A4556",
+  snow: "#F0F4FA",
+  snowDim: "#BDC7D8",
+  green: "#3FB950",
+  red: "#F85149",
+  blue: "#A5D6FF",
+  purple: "#C77DFF",
+  cyan: "#56CFE1",
+  teal: "#2DD4BF",
+} as const;
