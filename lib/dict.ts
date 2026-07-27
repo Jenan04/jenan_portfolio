@@ -41,9 +41,9 @@ export interface LangDict {
   dir: "ltr" | "rtl";
   navLinks: string[];
   navLabels: Record<string, string>;
-  heroGreeting: string;
+  heroGreeting?: string;
   heroBadge: string;
-  heroQuote: string;
+  heroQuote?: string;
   heroTyped: string[];
   heroNeofetchCaption: string;
   sectionProjects: string;
@@ -69,7 +69,7 @@ export interface LangDict {
   linkStaging: string;
   contactEyebrow: string;
   contactTitle: string;
-  contactSubtitle: string;
+  contactSubtitle?: string;
   contactCopyEmail: string;
   contactCopied: string;
   footerMade: string;
