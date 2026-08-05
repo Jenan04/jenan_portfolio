@@ -21,20 +21,25 @@ export default function Nav({ activeSection }: NavProps) {
         right: 0,
         zIndex: 100,
         padding: "1rem 2rem",
+        display: "flex",
+        justifyContent: "center",
       }}
     >
+
       <nav
         style={{
+          width: "100%",
+
           maxWidth: "1100px",
-          margin: "0 auto",
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
-          padding: "0 1.5rem",
+          padding: "0 2rem",
           height: "52px",
-          background: `${T.bg}cc`,
+          background: "rgba(15, 15, 20, 0.75)",       
           backdropFilter: "blur(14px)",
-          border: `1px solid ${T.mistDim}33`,
+          WebkitBackdropFilter: "blur(14px)",         
+          border: "1px solid rgba(255, 255, 255, 0.08)", 
           borderRadius: "9999px",
           direction: "ltr",
         }}
