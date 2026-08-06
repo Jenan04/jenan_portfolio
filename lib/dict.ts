@@ -416,10 +416,12 @@ interface SecurityScanner {
       },
       {
         title: "Scrum as Communication",
-        code: `Sprint Planning ──► Daily Sync ──► Review
-       │                                   │
-       └─────── Retrospective ◄────────────┘
-
+      //   code: `Sprint Planning ──► Daily Sync ──► Review
+      //  │                                   │
+      //  └─────── Retrospective ◄────────────┘
+code: `Sprint Planning ──► Daily Sync
+        │                  │
+        └── Retrospective ◄┘
 // What actually matters:
 // · Backlog sized to shippable units
 // · PRs that tell a story
@@ -746,9 +748,9 @@ interface SecurityScanner {
       },
       {
         title: "Scrum كتواصل",
-        code: `تخطيط السبرنت ──► متابعة يومية ──► مراجعة
-          │                                    │
-          └────── استرجاع الدروس ◄─────────────┘
+        code: ` متابعة يومية ──► مراجعة
+                │                    │
+                └── استرجاع الدروس ◄┘
 
 // ما يهم فعلاً:
 // · عناصر backlog قابلة للشحن
