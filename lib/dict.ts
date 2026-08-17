@@ -90,9 +90,9 @@ export const dict: Record<"en" | "ar", LangDict> = {
       principles: "Principles",
       contact: "Contact",
     },
-    // heroGreeting: "Hi, I'm Jenan.",
+    heroGreeting: "",
     heroBadge: "Full-Stack Engineer",
-    // heroQuote:
+    heroQuote:"",
       // "Just as the sea reflects the shifting skies, code is a reflection of our thoughts.",
     heroTyped: [
       "$ whoami",
@@ -130,7 +130,7 @@ export const dict: Record<"en" | "ar", LangDict> = {
     linkStaging: "Live Staging",
     contactEyebrow: "OPEN TO WORK",
     contactTitle: "Let's build something worth building.",
-    // contactSubtitle:
+    contactSubtitle:"",
     //   "I'm looking for teams where engineering quality actually matters. If you're solving real problems, I'd love to talk.",
     contactCopyEmail: "Copy Email",
     contactCopied: "Copied!",
